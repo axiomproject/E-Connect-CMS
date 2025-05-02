@@ -798,6 +798,13 @@
   .contact-card {
     padding: 1.2rem !important;
   }
+  .contact-info {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+  }
 }
 
 @keyframes fadeIn {
