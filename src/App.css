@@ -490,12 +490,16 @@
   padding: 1.2rem 1.5rem;
   cursor: pointer;
   transition: background 0.2s;
-  border-bottom: 1px solid #e8f8ef;
+  /* Remove border-bottom to avoid unwanted underline */
+  /* border-bottom: 1px solid #e8f8ef; */
+  box-shadow: none;
 }
 
 .about-accordion-title:hover,
 .about-accordion-item.open .about-accordion-title {
   background: #e8f8ef;
+  /* Add a subtle divider only on open/hover, not a dark line */
+  box-shadow: 0 1px 0 0 #e8f8ef;
 }
 
 .about-accordion-icon {
@@ -788,6 +792,12 @@
 }
 .header-mobile-nav-show {
   animation: mobileMenuIn 0.3s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 1.2rem !important;
+  }
 }
 
 @keyframes fadeIn {
