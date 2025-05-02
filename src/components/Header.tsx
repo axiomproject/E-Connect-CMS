@@ -94,7 +94,7 @@ const Header: React.FC = () => {
       </div>
       <nav style={navStyle} className="header-nav">
         <Link to="/" className="nav-link">Home</Link>
-        <a href="/Team" className="nav-link">Team</a>
+        <a href="/team" className="nav-link">Team</a>
         <Link to="/contact" className="nav-link">Contact</Link>
         <Link to="/about" className="nav-link">About</Link>
       </nav>
