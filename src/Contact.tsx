@@ -16,7 +16,8 @@ const Contact: React.FC = () => (
         <div className="contact-info">
           <p><strong>Name:</strong> E-Connect QCU</p>
           <p><strong>Email:</strong> <a href="mailto:econnectqcu@gmail.com">econnectqcu@gmail.com</a></p>
-          <p><strong>Phone:</strong> <a href="tel:+639123456789">+63 912 345 6789</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+639123456789">+63 993 483 5984</a></p>
+          <p><strong>Adress:</strong> G3H9+HQ Taguig, Metro Manila near Taguig City Hall</p>
         </div>
         <a
           href="mailto:econnectqcu@gmail.com"
