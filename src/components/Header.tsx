@@ -128,7 +128,7 @@ const Header: React.FC = () => {
           </button>
           <nav style={mobileNavLinksStyle}>
             <Link to="/" className="nav-link" onClick={handleClose}>Home</Link>
-            <a href="/Team" className="nav-link" onClick={handleClose}>Team</a>
+            <a href="/team" className="nav-link" onClick={handleClose}>Team</a>
             <Link to="/contact" className="nav-link" onClick={handleClose}>Contact</Link>
             <Link to="/about" className="nav-link" onClick={handleClose}>About</Link>
           </nav>
