@@ -94,7 +94,7 @@ const Header: React.FC = () => {
       </div>
       <nav style={navStyle} className="header-nav">
         <Link to="/" className="nav-link">Home</Link>
-        <a href="/team" className="nav-link">Team</a>
+        <Link to="/team" className="nav-link">Team</Link>
         <Link to="/contact" className="nav-link">Contact</Link>
         <Link to="/about" className="nav-link">About</Link>
       </nav>
@@ -128,7 +128,7 @@ const Header: React.FC = () => {
           </button>
           <nav style={mobileNavLinksStyle}>
             <Link to="/" className="nav-link" onClick={handleClose}>Home</Link>
-            <a href="/team" className="nav-link" onClick={handleClose}>Team</a>
+            <Link to="/team" className="nav-link" onClick={handleClose}>Team</Link>
             <Link to="/contact" className="nav-link" onClick={handleClose}>Contact</Link>
             <Link to="/about" className="nav-link" onClick={handleClose}>About</Link>
           </nav>
