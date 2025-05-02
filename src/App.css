@@ -800,10 +800,14 @@
   }
   .contact-info {
     width: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-sizing: border-box;
     font-size: 0.8rem;
+    word-break: break-word;
+  }
+  .contact-info a {
+    word-break: break-all;
   }
 }
 
